@@ -1,0 +1,15 @@
+<!-- templates/layout.html -->
+<!DOCTYPE html>
+<html   xmlns:th="http://www.thymeleaf.org"
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head th:replace="~{fragments/header :: head}"></head>
+<body>
+<div th:replace="~{fragments/header :: header}"></div>
+
+<main class="container my-4" layout:fragment="content">
+  <!-- 개별 페이지에서 이 영역만 채운다 -->
+
+</main>
+<div th:replace="~{fragments/footer :: footer}"></div>
+</body>
+</html>

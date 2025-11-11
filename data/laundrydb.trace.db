@@ -1,0 +1,798 @@
+2025-09-28 11:58:00.978371+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-09-28 11:58:00.983381+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-09-28 14:59:15.800349+09:00 jdbc[53]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-09-28 14:59:15.803350+09:00 jdbc[53]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-09-28 15:14:01.752508+09:00 jdbc[63]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-09-28 15:14:01.753505+09:00 jdbc[63]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 07:32:31.919111+09:00 jdbc[193]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 07:32:31.921616+09:00 jdbc[193]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 07:33:50.891963+09:00 jdbc[203]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 07:33:50.891963+09:00 jdbc[203]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 07:40:30.400190+09:00 jdbc[213]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 07:40:30.401191+09:00 jdbc[213]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 07:44:08.608906+09:00 jdbc[223]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 07:44:08.608906+09:00 jdbc[223]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 07:44:52.065563+09:00 jdbc[233]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 07:44:52.066570+09:00 jdbc[233]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 07:50:50.723321+09:00 jdbc[243]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 07:50:50.723321+09:00 jdbc[243]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 08:20:35.105277+09:00 jdbc[22]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 08:20:35.109277+09:00 jdbc[22]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 08:20:37.388460+09:00 jdbc[32]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 08:20:37.389460+09:00 jdbc[32]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 08:21:49.428214+09:00 jdbc[42]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 08:21:49.430729+09:00 jdbc[42]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 08:25:31.901216+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-01 08:25:31.904215+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-02 07:13:19.432809+09:00 jdbc[74]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-02 07:13:19.439365+09:00 jdbc[74]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-02 07:15:15.812091+09:00 jdbc[84]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-02 07:15:15.813091+09:00 jdbc[84]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-02 07:18:47.133093+09:00 jdbc[94]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-02 07:18:47.133093+09:00 jdbc[94]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-02 08:00:03.251227+09:00 jdbc[114]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-02 08:00:03.252229+09:00 jdbc[114]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-08 17:25:36.922993+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-08 17:25:36.938638+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-09 20:09:02.077837+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:291)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:811)
+	at org.h2.server.web.WebApp.login(WebApp.java:1038)
+	at org.h2.server.web.WebApp.process(WebApp.java:226)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.WebThread.process(WebThread.java:154)
+	at org.h2.server.web.WebThread.run(WebThread.java:103)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 22 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 16 more
+2025-10-09 20:09:31.605641+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:291)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:811)
+	at org.h2.server.web.WebApp.login(WebApp.java:1038)
+	at org.h2.server.web.WebApp.process(WebApp.java:226)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.WebThread.process(WebThread.java:154)
+	at org.h2.server.web.WebThread.run(WebThread.java:103)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 22 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 16 more
+2025-10-09 20:12:22.858236+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:291)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:811)
+	at org.h2.server.web.WebApp.test(WebApp.java:977)
+	at org.h2.server.web.WebApp.process(WebApp.java:241)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.WebThread.process(WebThread.java:154)
+	at org.h2.server.web.WebThread.run(WebThread.java:103)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 22 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 16 more
+2025-10-09 20:13:53.810848+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:13:54.752638+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:13:55.404574+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:13:56.059196+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:13:56.641616+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:14:33.599191+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:14:34.755608+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:14:38.026156+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:14:44.040922+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:14:44.711824+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:14:44.930614+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:14:45.120484+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:14:45.288274+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:14:45.465911+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:14:45.639109+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:14:45.812299+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:14:45.988839+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:14:47.811935+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:14:53.447453+09:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:177)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/ROLS/data/laundrydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 8 more
+2025-10-09 20:16:14.249052+09:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]MEMBER"; expected "MERGE"; SQL statement:
+MEMBER [42001-232]
+2025-10-09 20:16:15.422262+09:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]MEMBER"; expected "MERGE"; SQL statement:
+MEMBER [42001-232]
+2025-10-12 11:55:55.218298+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-12 11:55:55.224302+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-12 11:56:41.719344+09:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-12 11:56:41.721345+09:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MEMBER" already exists; SQL statement:
+create global temporary table HTE_member(member_id integer, rn_ integer not null, address varchar(255), name varchar(255), note varchar(255), phone varchar(255), registered_at varchar(255), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-19 17:06:46.288460+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-28 22:16:58.229899+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-28 22:32:30.083189+09:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-28 22:51:53.722449+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-28 22:53:59.525645+09:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-28 22:54:55.436924+09:00 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-28 23:09:27.501486+09:00 jdbc[43]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-28 23:14:39.786765+09:00 jdbc[53]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-28 23:15:28.597869+09:00 jdbc[63]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-10-28 23:18:52.070984+09:00 jdbc[73]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-11-04 22:53:01.168234+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-11-04 23:06:54.789220+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-11-04 23:06:57.331734+09:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-11-04 23:11:45.971208+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-11-04 23:29:27.174814+09:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-11-04 23:29:35.723243+09:00 jdbc[43]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-11-04 23:29:38.119034+09:00 jdbc[53]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
+2025-11-05 23:03:33.154785+09:00 jdbc[74]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_order" already exists; SQL statement:
+create global temporary table "HTE_order"(delivery boolean, delivery_date date, member_id integer, order_id integer, pickup_date date, rn_ integer not null, registered_at timestamp(6), status enum ('CANCELLED','DELIVERED','IN_PROGRESS','READY','RECEIVED'), primary key (rn_)) TRANSACTIONAL [42101-232]
