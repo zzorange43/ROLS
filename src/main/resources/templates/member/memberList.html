@@ -3,7 +3,6 @@
 <html xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorate="~{fragments/layout.html}">
-<body>
 <div layout:fragment="content">
     <h1>회원 목록</h1>
     <a class="btn btn-primary mb-3" th:href="@{/member/new}">회원 등록</a>
@@ -20,9 +19,12 @@
         </tr>
         </thead>
         <tbody>
-        <tr th:each="member : ${members}">
+        <tr th:each="member : ${members}"
+            th:data-id="${member.id}"
+            th:data-name="${member.name}"
+            onclick="fn_showMemberDetail(this)">
             <td th:text="${member.id}">1</td>
-            <td th:text="${member.name}">홍길동</td>
+            <td th:text="${member.name}" style="cursor:pointer; color:blue;">홍길동</td>
             <td th:text="${member.address}">아남아파트 101동 101호</td>
             <td th:text="${member.phone}">010-1234-5678</td>
             <td th:text="${member.registeredAt}"></td>
@@ -34,6 +36,15 @@
         </tr>
         </tbody>
     </table>
+    <script>
+        function fn_showMemberDetail(tr){
+            const member = {
+                id: tr.dataset.id,
+                name: tr.dataset.name,
+            };
+            window.location.href = `/member/${member.id}`;
+        }
+
+    </script>
 </div>
-</body>
 </html>

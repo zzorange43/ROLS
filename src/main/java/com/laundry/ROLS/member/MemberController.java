@@ -52,15 +52,16 @@ public class MemberController {
         return "redirect:/member";
     }
 
+    /*회원 상세 보기 GET*/
     @GetMapping("/{id}")
     public String retrieveMemberDetail(@PathVariable Integer id, Model model) {
-        // model.addAttribute("member", memberService.findById(id));
+        model.addAttribute("member", memberService.findOne(id));
         return "member/detail";
     }
-
+    /*회원 수정화면 보기 GET 흠 이걸 해야하나??*/
     @GetMapping("/{id}/edit")
     public String modifyMemberForm(@PathVariable Integer id, Model model) {
-        // model.addAttribute("member", memberService.findById(id));
+        model.addAttribute("member", memberService.findOne(id));
         return "member/editForm";
     }
 
