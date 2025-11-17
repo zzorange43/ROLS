@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{fragments/layout.html}">
+<div layout:fragment="content">
+    <h1>회원 상세 정보</h1>
+
+    <div class="mb-3">
+        <div class="info-label">회원 ID(순번)</div>
+        <div class="info-value">[[${member.id}]]</div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="mb-3">
+        <div class="info-label">이름</div>
+        <div class="info-value">[[${member.name}]]</div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="mb-3">
+        <div class="info-label">주소</div>
+        <div class="info-value">[[${member.address}]]</div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="mb-3">
+        <div class="info-label">전화번호</div>
+        <div class="info-value">[[${member.phone}]]</div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="mb-3">
+        <div class="info-label">가입일</div>
+        <div class="info-value">[[${member.registeredAt}]]</div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a class="btn btn-primary btn-back" onclick="window.history.back()">⬅ 뒤로가기</a>
+    </div>
+
+</div>
+</html>

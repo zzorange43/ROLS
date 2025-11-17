@@ -1,0 +1,53 @@
+body {
+background: linear-gradient(135deg, #ffd3e2, #d5e8ff, #d3ffd9);
+background-size: 400% 400%;
+animation: bgMove 12s ease infinite;
+}
+@keyframes bgMove {
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}
+
+
+.detail-card {
+margin-top: 60px;
+border-radius: 20px;
+padding: 30px;
+backdrop-filter: blur(8px);
+background: rgba(255, 255, 255, 0.85);
+box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+.detail-title {
+font-weight: 700;
+margin-bottom: 25px;
+color: #4a4a4a;
+}
+
+
+.info-label {
+font-weight: 600;
+color: #555;
+}
+
+
+.info-value {
+font-size: 1.05rem;
+color: #333;
+}
+
+
+.divider {
+height: 2px;
+background: #eee;
+margin: 18px 0;
+}
+
+
+.btn-back {
+border-radius: 30px;
+padding: 10px 22px;
+font-weight: 500;
+}

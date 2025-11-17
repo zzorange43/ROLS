@@ -30,7 +30,7 @@
             <td th:text="${member.registeredAt}"></td>
             <td>
                 <a class="btn btn-sm btn-info" th:href="@{/member/{id}(id=${member.id})}">상세</a>
-                <a class="btn btn-sm btn-warning" th:href="@{/member/{id}/edit(id=${member.id})}">수정</a>
+<!--                <a class="btn btn-sm btn-warning" th:href="@{/member/{id}/edit(id=${member.id})}">수정</a>-->
                 <a class="btn btn-sm btn-danger" th:href="@{/member/{id}/delete(id=${member.id})}">삭제</a>
             </td>
         </tr>

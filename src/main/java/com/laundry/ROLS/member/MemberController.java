@@ -7,7 +7,9 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 
@@ -54,16 +56,25 @@ public class MemberController {
 
     /*회원 상세 보기 GET*/
     @GetMapping("/{id}")
-    public String retrieveMemberDetail(@PathVariable Integer id, Model model) {
-        model.addAttribute("member", memberService.findOne(id));
+    public String retrieveMemberDetail(@PathVariable("id") Integer id, Model model) {
+
+        //서비스에 보낼 파라미터맵
+        Map<String, Object> param = new HashMap<>();
+        param.put("memberId",id);
+
+        Map<String, Object> resultMap = memberService.retrieveMemberDetail(param);
+
+        MemberDTO memberDTO = (MemberDTO)resultMap.get("member");
+
+        model.addAttribute("member", memberDTO);
         return "member/detail";
     }
     /*회원 수정화면 보기 GET 흠 이걸 해야하나??*/
-    @GetMapping("/{id}/edit")
-    public String modifyMemberForm(@PathVariable Integer id, Model model) {
-        model.addAttribute("member", memberService.findOne(id));
-        return "member/editForm";
-    }
+//    @GetMapping("/{id}/edit")
+//    public String modifyMemberForm(@PathVariable Integer id, Model model) {
+//        model.addAttribute("member", memberService.findOne(id));
+//        return "member/editForm";
+//    }
 
     @PostMapping("/{id}")
     public String modifyMember(@PathVariable Integer id , @ModelAttribute Member member ) {

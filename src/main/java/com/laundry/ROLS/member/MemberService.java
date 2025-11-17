@@ -7,7 +7,9 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static com.laundry.ROLS.system.exception.ErrorCode.MEMBER_EXIST;
 
@@ -50,5 +52,23 @@ public class MemberService {
     @Transactional(readOnly = true)
     public Member findOne(Integer memberId){
         return memberRepository.findOne(memberId);
+    }
+
+    /*
+     * 회원 상세 조회
+     */
+    @Transactional(readOnly = true)
+    public Map<String,Object> retrieveMemberDetail(Map<String,Object> param){
+        //파라미터에서 멤버id 갖고오기
+        int memberId = (Integer)param.get("memberId");
+        
+        //개인 회원 조회
+        Member member = findOne(memberId);
+        
+        //컨트롤러에 보낼 Map 생성
+        Map<String, Object> resultMap = new HashMap<>();
+        resultMap.put("member",member.getMemberDTO()); //member -> memberDTO 이 작업 ... 매번 해줘야 하냐!!
+        
+        return resultMap;
     }
 }
