@@ -4,11 +4,19 @@
         xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 <head th:replace="~{fragments/header :: head}"></head>
 <body>
+
+<div th:replace="~{fragments/sidebar :: sidebar}"></div>
+
 <div th:replace="~{fragments/header :: header}"></div>
 
-<main class="container my-4" layout:fragment="content">
-  <!-- 개별 페이지에서 이 영역만 채운다 -->
 
+<main class="content-wrap">
+  <div class="main">
+    <div layout:fragment="content" class="container-fluid">
+    <!-- 개별 페이지에서 이 영역만 채운다 -->
+
+    </div>
+  </div>
 </main>
 <div th:replace="~{fragments/footer :: footer}"></div>
 </body>
