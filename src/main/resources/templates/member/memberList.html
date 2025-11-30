@@ -6,36 +6,52 @@
 <div layout:fragment="content">
     <h1>회원 목록</h1>
     <a class="btn btn-primary mb-3" th:href="@{/member/new}">회원 등록</a>
+    <div class="row">
+        <!-- /# column -->
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-title pr">
+                    <h4>All Exam Result</h4>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table student-data-table m-t-20">
+                            <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>이름</th>
+                                <th>주소</th>
+                                <th>전화번호</th>
+                                <th>생성일자</th>
+                                <th>관리</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr th:each="member : ${members}"
+                                th:data-id="${member.id}"
+                                th:data-name="${member.name}"
+                                onclick="fn_showMemberDetail(this)">
+                                <td th:text="${member.id}">1</td>
+                                <td th:text="${member.name}" style="cursor:pointer; color:blue;">홍길동</td>
+                                <td th:text="${member.address}">아남아파트 101동 101호</td>
+                                <td th:text="${member.phone}">010-1234-5678</td>
+                                <td th:text="${member.registeredAt}"></td>
+                                <td>
+                                    <a class="btn btn-square btn-info" th:href="@{/member/{id}(id=${member.id})}">상세</a>
+                                    <!--                <a class="btn btn-sm btn-warning" th:href="@{/member/{id}/edit(id=${member.id})}">수정</a>-->
+                                    <a class="btn btn-square btn-danger" th:href="@{/member/{id}/delete(id=${member.id})}">삭제</a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /# column -->
+    </div>
+    <!-- /# row -->
 
-    <table class="table table-bordered">
-        <thead>
-        <tr>
-            <th>ID</th>
-            <th>이름</th>
-            <th>주소</th>
-            <th>전화번호</th>
-            <th>생성일자</th>
-            <th>관리</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr th:each="member : ${members}"
-            th:data-id="${member.id}"
-            th:data-name="${member.name}"
-            onclick="fn_showMemberDetail(this)">
-            <td th:text="${member.id}">1</td>
-            <td th:text="${member.name}" style="cursor:pointer; color:blue;">홍길동</td>
-            <td th:text="${member.address}">아남아파트 101동 101호</td>
-            <td th:text="${member.phone}">010-1234-5678</td>
-            <td th:text="${member.registeredAt}"></td>
-            <td>
-                <a class="btn btn-sm btn-info" th:href="@{/member/{id}(id=${member.id})}">상세</a>
-<!--                <a class="btn btn-sm btn-warning" th:href="@{/member/{id}/edit(id=${member.id})}">수정</a>-->
-                <a class="btn btn-sm btn-danger" th:href="@{/member/{id}/delete(id=${member.id})}">삭제</a>
-            </td>
-        </tr>
-        </tbody>
-    </table>
     <script>
         function fn_showMemberDetail(tr){
             const member = {
